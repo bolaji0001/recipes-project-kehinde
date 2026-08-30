@@ -20,7 +20,7 @@ class AddRecipeView extends View {
     this._window.classList.toggle('hidden');
   }
   _addHandlerShowWindow() {
-    console.log(this._btnOpen);
+
     this._btnOpen.addEventListener('click', this.toggleWindow.bind(this));
   }
 
@@ -34,7 +34,7 @@ class AddRecipeView extends View {
       e.preventDefault();
       const dataArr = [...new FormData(this)];
       const data = Object.fromEntries(dataArr)
-      console.log('Submitted')
+    
      handler(data)
     });
   }

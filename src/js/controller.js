@@ -135,9 +135,7 @@ const controlAddRecipe = async function(newRecipe){
   }
 }
 
-const newFeature = function(){
-  console.log('Welcome to the application')
-}
+
 const init = function () {
   bookmarkView.addHandlerRender(controlBookmarks);
 
@@ -153,10 +151,9 @@ const init = function () {
 
   addRecipeView.addHandlerUpload(controlAddRecipe)
 
-  newFeature()
+
 };
 
 init();
 
-// window.addEventListener('hashchange', showRecipe)
-// window.addEventListener('load', showRecipe)
+
