@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg';
-console.log(icons);
+
 
 export default class Views {
   _data;
