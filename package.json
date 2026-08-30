@@ -1,0 +1,27 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Recipe project",
+  "default": "index.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Kehinde Mobolaji",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "stream-browserify": "^3.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.50.0",
+    "fraction": "^0.2.0",
+    "fraction.js": "^5.3.4",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
